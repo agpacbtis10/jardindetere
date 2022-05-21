@@ -1,0 +1,47 @@
+html {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+div#encabezado {
+ height: 150px;
+ background-color: #B2D6FF; /*azul medio*/
+}
+
+div#columna_publicidad{
+ float: left;
+ width: 30%; 
+ height: 600px;
+ background-color: #F09A90; /*rojo*/
+}
+
+div#columna_principal{
+ float: left;
+ width: 70%; 
+ height: 600px;
+ background-color: #F5CF8E; /*amarillo*/
+}
+
+div#pagina{
+ margin: 0 auto;
+ overflow: hidden;
+ background-color: #D6E9FE; /*azul medio*/
+}
+
+div#pie{
+ clear both; 
+ height: 80px;
+ background-color: #B2D6FF;
+}
+
+li {
+  color: blue;
+  width: 500px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
